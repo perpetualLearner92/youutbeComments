@@ -8,8 +8,8 @@ library(gridExtra)
 library('jsonlite')
 setwd("/home/pratham/Downloads/")
 companyname<-"apple"
-#https://developers.google.com/youtube/v3/getting-started
-apikey <- "AIzaSyCud7BloEOJvUMDobUpEqHBF85dWP_UC-0"
+#https://developers.google.com/youtube/v3/getting-started see this link to get api key
+apikey <- "your api key"
 
 videourl<-paste('https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=',companyname,'&key=',apikey,sep="")
 
