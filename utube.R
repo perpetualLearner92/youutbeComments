@@ -29,7 +29,7 @@ for(i in 1:length(ids))
     commentdate<-c$items$snippet$topLevelComment$snippet$publishedAt
     comments<-data.frame(companyname,value,commentdate)
     #write your csv here or do sentiment analysis
-    write.csv(comments)
+    write.csv(comments,file = paste(i,"comments.csv"))
   } , error = function ( e ){ cat(conditionMessage ( e ) , "\n")})
   
   
