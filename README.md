@@ -5,7 +5,7 @@
 companyname<-"apple"
 
 #you will need a your developer api key from https://console.developers.google.com/ 
-#see below video to create your api key
+#visit below link create your api key
 #https://developers.google.com/youtube/v3/getting-started see this link to get api key
 apikey <- "your api key"
 
